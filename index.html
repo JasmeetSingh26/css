@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=Happy+Monkey&family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <section class="header">
+
+        <nav>
+
+            <a href="index.html"><img src="Tutor.png"></a>
+
+            <div class="navlink"  id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()" ></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()"></i>
+
+
+        </nav>
+
+        <div class="belownav">
+
+            
+            <div class="textbox">
+                <h1>World's Biggest Online University</h1>
+                <p>Revolutionary online education startup providing interactive courses 
+                    and personalized learning experiences for students of all ages and backgrounds.</p>
+                    
+                    <a href="" class="hbtn">Visit us to know more</a>
+            </div>
+                
+            <div><img class="hm" src="https://img.freepik.com/premium-photo/beautiful-young-female-student-with-laptop_58409-5155.jpg" ></div>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde </p>
+
+
+        <div class="row">
+            <div class="coursecol">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Hic odio velit delectus incidunt autem vel, sint accusamus neque 
+                    atque praesentium consequuntur? Dolorem quaerat illum amet?</p>
+            </div>
+
+            <div class="coursecol">
+                <h3>Degree</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Hic odio velit delectus incidunt autem vel, sint accusamus neque 
+                    atque praesentium consequuntur? Dolorem quaerat illum amet?</p>
+            </div>
+
+            <div class="coursecol">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Hic odio velit delectus incidunt autem vel, sint accusamus neque 
+                    atque praesentium consequuntur? Dolorem quaerat illum amet?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="campus">
+        <h1>Our Offline Campuses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde</p>
+        <div class="row">
+
+        <div class="campuscol">
+
+            <img src="https://pxl-yorksjacuk.terminalfour.net/fit-in/1600x1200/filters:quality(35)/prod01/yorksjacuk/media/content-assets/safe-images/1600-x-1200/Republic-Export-Building-Photography-3-(1).jpg" alt="">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>    
+        </div>
+
+        <div class="campuscol">
+
+            <img src="https://www.esce.fr/app/uploads/sites/11/2022/01/Campus-Eiffel_HD_RVB-1024x768.jpg" alt="">
+            <div class="layer">
+                <h3>PARIS</h3>
+            </div>    
+        </div>
+
+
+        <div class="campuscol">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Campus_Barcelona_%28UIC_Barcelona%29.jpg" alt="">
+            <div class="layer">
+                <h3>BARCELONA</h3>
+            </div>    
+        </div>
+        </div>
+    </section>
+
+        <script>
+            var navLinks= document.getElementById("navLinks");
+
+            function showmenu(){
+                navLinks.style.right="0";
+            }
+
+            function hidemenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+</body>
+</html>
